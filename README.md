@@ -1,5 +1,5 @@
 # Konsole - CLI Builder
-[![Build status](https://ci.appveyor.com/api/projects/status/trsgkvsei2d6u3hy/branch/master?svg=true)](https://ci.appveyor.com/project/sanisoclem/ss-testing/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/5hxjihsdayumq3y3/branch/master?svg=true)](https://ci.appveyor.com/project/sanisoclem/konsole/branch/master)
 
 ## Requirements
 This library targets `netstandard2.0` so it should work with `net461` and `netcoreapp2.x`. However, it is only tested with `netcoreapp2.1`.

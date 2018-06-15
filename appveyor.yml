@@ -6,7 +6,7 @@ init: #APPVEYOR_BUILD_ID
 - ps: $env:customnugetversion = if ($env:APPVEYOR_REPO_TAG -eq $True) { "$env:APPVEYOR_REPO_TAG_NAME" } else { "$env:APPVEYOR_BUILD_VERSION" }
 - ps: Update-AppveyorBuild -Version $env:customnugetversion
 build_script:
-- cmd: dotnet pack -c release
+- ps: dotnet pack -c release /p:PackageVersion=$env:customnugetversion
 test_script:
 - cmd: dotnet test tests/P3.Konsole.Tests
 artifacts:

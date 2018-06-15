@@ -14,7 +14,7 @@
     <PackageLicenseUrl>https://github.com/panchopupu/Konsole/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/panchopupu/Konsole</PackageProjectUrl>
     <PackageReleaseNotes>https://github.com/panchopupu/Konsole/releases</PackageReleaseNotes>
-    <PackageIconUrl>https://github.com/sanisoclem/sanisoclem.github.io/blob/master/apple-touch-icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/sanisoclem/sanisoclem.github.io/master/apple-touch-icon.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>

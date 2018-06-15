@@ -4,6 +4,19 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>SS.Konsole</PackageId>
+    <PackageVersion>0.0.0-dev</PackageVersion>
+    <Authors>Jerahmeel Cosinas</Authors>
+    <Description>CLI builder with DI</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>console, ioc, di, commandline, parser</PackageTags>
+    <PackageLicenseUrl>https://github.com/panchopupu/Konsole/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/panchopupu/Konsole</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/panchopupu/Konsole/releases</PackageReleaseNotes>
+    <PackageIconUrl>https://github.com/sanisoclem/sanisoclem.github.io/blob/master/apple-touch-icon.png</PackageIconUrl>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.0" />

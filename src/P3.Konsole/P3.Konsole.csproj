@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>SS.Konsole</PackageId>
+    <PackageId>P3.Konsole</PackageId>
     <PackageVersion>0.0.0-dev</PackageVersion>
     <Authors>Jerahmeel Cosinas</Authors>
     <Description>CLI builder with DI</Description>

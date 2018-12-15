@@ -1,6 +1,6 @@
 # Konsole - CLI Builder
-[![Build status](https://ci.appveyor.com/api/projects/status/5hxjihsdayumq3y3/branch/master?svg=true)](https://ci.appveyor.com/project/sanisoclem/konsole/branch/master)
-[![codecov](https://codecov.io/gh/panchopupu/Konsole/branch/master/graph/badge.svg)](https://codecov.io/gh/panchopupu/Konsole)
+[![Build status](https://ci.appveyor.com/api/projects/status/pu9rr7lmqwdr3rbf/branch/master?svg=true)](https://ci.appveyor.com/project/sanisoclem/konsole-rt5hg/branch/master)
+[![codecov](https://codecov.io/gh/sanisoclem/Konsole/branch/master/graph/badge.svg)](https://codecov.io/gh/sanisoclem/Konsole)
 
 ## Requirements
 This library targets `netstandard2.0` so it should work with `net461` and `netcoreapp2.x`. However, it is only tested with `netcoreapp2.1`.

@@ -1,4 +1,4 @@
-version: 0.3.0-alpha.{build}
+version: 0.3.1-alpha.{build}
 environment:
   CODECOV_TOKEN:
     secure: 7NwrC2/LQuGJujoTjelIGViuqX1kXSEuuJh3ZP5WKAMC93tBNp7AmUo18KBCcRLO

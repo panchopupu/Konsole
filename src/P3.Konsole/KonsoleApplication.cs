@@ -26,7 +26,7 @@ namespace P3.Konsole
         public IConfigurationRoot Configuration { get; }
 
         public Task ExecuteCommandAsync(string[] args, IServiceProvider serviceProvider = null, CancellationToken token = default(CancellationToken)) {
-            return _rootCommand.ExecuteCommandAsync(serviceProvider ?? serviceProvider, args, token);
+            return _rootCommand.ExecuteCommandAsync(serviceProvider ?? ServiceProvider, args, token);
         }
     }
 }

@@ -22,16 +22,14 @@ namespace P3.Konsole.Commands
         public string Name { get; }
 
         public Task ExecuteCommandAsync(IServiceProvider serviceProvider, string[] args, CancellationToken token = default(CancellationToken)) {
-            // -- if args is null or zero length, then we cannot determine child command so its invalid
-            if (args == null || args.Length == 0)
-                throw new InvalidCommandException();
 
-            // -- check if there is a matching child command
-            var cmd = _commandDefinitions.SingleOrDefault(c => c.Name.Equals(args[0]));
-
-            if (cmd != null)
-                return cmd.ExecuteCommandAsync(serviceProvider, args.Skip(1).ToArray(), token);   // -- attempt to pass execution to child definition if found
-            else if (_catchAll != null)
+            if (args != null && args.Length > 0) {
+                // -- check if there is a matching child command
+                var cmd = _commandDefinitions.SingleOrDefault(c => c.Name.Equals(args[0]));
+                if (cmd != null)
+                    return cmd.ExecuteCommandAsync(serviceProvider, args.Skip(1).ToArray(), token);
+            }
+            if (_catchAll != null)
                 return _catchAll.ExecuteCommandAsync(serviceProvider, args, token);   // -- attempt to pass execution to catch all definition if not found
             else
                 throw new InvalidCommandException();    // -- no command can be executed

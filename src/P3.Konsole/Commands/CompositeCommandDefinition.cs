@@ -22,7 +22,6 @@ namespace P3.Konsole.Commands
         public string Name { get; }
 
         public Task ExecuteCommandAsync(IServiceProvider serviceProvider, string[] args, CancellationToken token = default(CancellationToken)) {
-
             if (args != null && args.Length > 0) {
                 // -- check if there is a matching child command
                 var cmd = _commandDefinitions.SingleOrDefault(c => c.Name.Equals(args[0]));

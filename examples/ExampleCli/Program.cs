@@ -39,7 +39,6 @@ namespace ExampleCli
             try {
                 var cancellation = new CancellationTokenSource();
 
-
                 Console.CancelKeyPress += (sender, e) => {
                     e.Cancel = true;
                     cancellation.Cancel();
@@ -69,7 +68,6 @@ namespace ExampleCli
             Task.Run(() => MainAsync(args)).Wait();
         }
     }
-
 
     public static class Extensions
     {

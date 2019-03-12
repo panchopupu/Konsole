@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/sanisoclem/Konsole/branch/master/graph/badge.svg)](https://codecov.io/gh/sanisoclem/Konsole)
 [![AppVeyorTests](https://img.shields.io/appveyor/tests/sanisoclem/konsole-rt5hg.svg?style=flat&logo=appveyor)](https://ci.appveyor.com/project/sanisoclem/konsole-rt5hg/build/tests)
 [![Dependencies](https://img.shields.io/librariesio/github/sanisoclem/konsole.svg)](https://libraries.io/github/sanisoclem/konsole)
-[![Nuget Downloads](https://img.shields.io/nuget/dt/konsole.svg)](https://www.nuget.org/packages/konsole/)
+[![Nuget Downloads](https://img.shields.io/nuget/dt/p3.konsole.svg)](https://www.nuget.org/packages/p3.konsole/)
 
 ## Requirements
 This library targets `netstandard2.0` so it should work with `net461` and `netcoreapp2.x`. However, it is only tested with `netcoreapp2.1`.

@@ -1,11 +1,25 @@
 # Konsole - CLI Builder
 
-[![Build status](https://ci.appveyor.com/api/projects/status/pu9rr7lmqwdr3rbf/branch/master?svg=true)](https://ci.appveyor.com/project/sanisoclem/konsole-rt5hg/branch/master)
 [![CodeFactor](https://www.codefactor.io/repository/github/sanisoclem/konsole/badge)](https://www.codefactor.io/repository/github/sanisoclem/konsole)
 [![codecov](https://codecov.io/gh/sanisoclem/Konsole/branch/master/graph/badge.svg)](https://codecov.io/gh/sanisoclem/Konsole)
 [![AppVeyorTests](https://img.shields.io/appveyor/tests/sanisoclem/konsole-rt5hg.svg?style=flat&logo=appveyor)](https://ci.appveyor.com/project/sanisoclem/konsole-rt5hg/build/tests)
 [![Dependencies](https://img.shields.io/librariesio/github/sanisoclem/konsole.svg)](https://libraries.io/github/sanisoclem/konsole)
 [![Nuget Downloads](https://img.shields.io/nuget/dt/p3.konsole.svg)](https://www.nuget.org/packages/p3.konsole/)
+
+A `WebHostBuilder` like experience for creating console applications.
+
+## Build status
+
+| Build server | Platform     | SDK Version | Build status                                                                                                                                                  |
+|--------------|--------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AppVeyor     | Windows      |           ? | [![Build status](https://ci.appveyor.com/api/projects/status/pu9rr7lmqwdr3rbf/branch/master?svg=true)](https://ci.appveyor.com/project/sanisoclem/konsole-rt5hg/branch/master) |
+| Travis       | Linux / OS X |           ? | ? |
+
+## Nuget Packages
+
+| Name                                  | Version                                                                                                                 | Framework        |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------------|
+| `P3.Konsole`                          | [![Nuget](https://img.shields.io/nuget/v/p3.konsole.svg)](https://www.nuget.org/packages/p3.konsole)                    | `netstandard2.0`  |
 
 ## Requirements
 This library targets `netstandard2.0` so it should work with `net461` and `netcoreapp2.x`. However, it is only tested with `netcoreapp2.1`.
